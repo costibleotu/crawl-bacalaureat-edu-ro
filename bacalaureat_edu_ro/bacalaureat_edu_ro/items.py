@@ -12,6 +12,7 @@ class BacalaureatEduRoItem(Item):
     an = Field()
     judet = Field()
     nume = Field()
+    url = Field()
     pozitia_pe_judet = Field()
     pozitia_pe_tara = Field()
     unitate_de_invatamant = Field()
@@ -48,6 +49,8 @@ class BacalaureatEduRoItem(Item):
     disciplina_alegere_celelalte_arii_culiculare_nota = Field()
     disciplina_alegere_celelalte_arii_culiculare_contestatie = Field()
     disciplina_alegere_celelalte_arii_culiculare_final = Field()
+
+    competente_digitale = Field()
 
     media = Field()
     rezultat = Field()
