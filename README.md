@@ -15,7 +15,7 @@ scrapy crawl bacalaureat -a year=2016 -a session=2 -o bacalaureat_2016.csv
 ```
 
 ### Spider arguments
-`year` (optional) - any available year(from 2004 to present). If not specified it will take current year
+`year` (optional) - any available year(from 2004 to present). If not specified it will take current year  
 `session` (optional) - `1` for first session and `2` for September session
 
 
