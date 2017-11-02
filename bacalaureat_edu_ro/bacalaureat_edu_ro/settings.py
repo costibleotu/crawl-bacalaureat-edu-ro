@@ -29,6 +29,7 @@ FEED_EXPORTERS = {
     'csv': 'bacalaureat_edu_ro.exporters.bacalaureatCsvItemExporter',
 }
 
+
 FEED_FORMAT = 'csv'
 CSV_DELIMITER = ';'
 CSV_QUOTECHAR = '"'
