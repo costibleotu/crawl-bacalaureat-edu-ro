@@ -22,7 +22,7 @@ NEWSPIDER_MODULE = 'bacalaureat_edu_ro.spiders'
 ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 100
+CONCURRENT_REQUESTS = 5
 
 
 FEED_EXPORTERS = {
